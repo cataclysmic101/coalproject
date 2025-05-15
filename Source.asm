@@ -16,9 +16,9 @@ GetStdHandle PROTO STDCALL :DWORD           ;Gets the handle for standard output
 
 ;-----------------------------------------------Constants-------------------------------------------------------------------;
 CP_UTF8 EQU 65001                              ;Lets you print emojis on the console (UTF8 code page)
-MAX_NAME_LENGTH = 10
-MAX_PLAYERS = 10
-TOTAL_PLAYERS = 11
+MAX_NAME_LENGTH = 10                           ;Maximum player name length
+MAX_PLAYERS = 10                               ;Maximum number of players
+TOTAL_PLAYERS = 11                             ;Total players including current player
 ;-----------------------------------------------------STRUCT----------------------------------------------------------------;
 ;to store player data for file handling
 PLAYER STRUCT
