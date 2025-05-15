@@ -7,7 +7,6 @@ A classic Brick Breaker game implemented in **MASM assembly language**, utilizin
 - **Three increasing difficulty levels** 
 - **Score tracking** and **high score system** stored in files
 - **Lives system** with visual heart indicators
-- Pause functionality (press 'p')
 - Customizable paddle movement
 - Timed gameplay
 - Colorful ASCII art and UTF-8 emojis (❤️🚀)
